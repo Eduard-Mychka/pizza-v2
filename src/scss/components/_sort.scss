@@ -4,6 +4,7 @@
   position: relative;
   &__label {
     display: flex;
+    cursor: pointer;
     align-items: center;
 
     svg {
@@ -17,13 +18,13 @@
     span {
       color: $orange;
       border-bottom: 1px dashed $orange;
-      cursor: pointer;
     }
   }
 
   &__popup {
     position: absolute;
     right: 0;
+    z-index: 2;
     margin-top: 15px;
     background: #ffffff;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);

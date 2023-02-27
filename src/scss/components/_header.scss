@@ -1,8 +1,11 @@
 @import '../variables';
 
 .header {
-  border-bottom: 1px solid $gray-line;
-  padding: 40px 0;
+  position: sticky;
+  z-index: 10;
+  padding: 20px 0;
+  background-color: snow;
+  top: 0;
 
   .container {
     display: flex;
@@ -26,15 +29,18 @@
     }
 
     h1 {
-      color: #181818;
+      color: coral;
       font-size: 24px;
       letter-spacing: 1%;
       text-transform: uppercase;
       font-weight: 800;
+      margin-bottom: unset;
     }
 
     p {
-      color: #7b7b7b;
+      color: rgb(139, 139, 139);
+      letter-spacing: 1%;
+      font-weight: 500;
     }
   }
 }

@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Home from './pages/Home';
 import NotFound from './pages/NotFound';
 import Cart from './pages/Cart';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
             <Route path='/cart' element={<Cart />} />
           </Routes>
         </div>
+        <Footer />
       </div>
     </div>
   );

@@ -20,9 +20,8 @@
   }
 
   &__title {
-    font-size: 20px;
-    font-weight: 900;
-    letter-spacing: 1%;
+    font-size: 22px;
+    letter-spacing: 1px;
     margin-bottom: 20px;
   }
 
@@ -67,8 +66,8 @@
 
   &__price {
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 27px;
-    letter-spacing: 0.015em;
+    color: cadetblue;
   }
 }

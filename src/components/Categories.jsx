@@ -1,19 +1,23 @@
+import { Button } from 'semantic-ui-react';
+
 const Categories = ({ value, onClickCategory }) => {
   const categories = ['All', 'Meat', 'Vegetarian', 'Grill', 'Spicy', 'Closed'];
 
   return (
     <div className='categories'>
-      <ul>
+      <Button.Group>
         {categories.map((categoriesName, index) => (
-          <li
+          <Button
+            size='large'
             key={index}
             onClick={() => onClickCategory(index)}
             className={value === index ? 'active' : ''}
           >
             {categoriesName}
-          </li>
+          </Button>
         ))}
-      </ul>
+      </Button.Group>
+      <ul></ul>
     </div>
   );
 };

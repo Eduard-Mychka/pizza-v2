@@ -1,7 +1,7 @@
 import { Grid, Menu, Segment, Icon, Header } from 'semantic-ui-react';
 
 const Footer = () => (
-  <Segment vertical style={{ padding: '5em 0em', backgroundColor: 'snow' }}>
+  <Segment vertical style={{ padding: '5em 0em', backgroundColor: 'snow', marginTop: 'auto' }}>
     <Header as='h2' textAlign='center' style={{ color: 'coral', textTransform: 'uppercase' }}>
       Edward's Pizza
     </Header>
